@@ -15,7 +15,7 @@ while num <= 20
         puts "FizzBuzz"
 	#divisible 3
 	elsif num%3==0 
-		puts "Fizz"
+		puts "fizz"
 	#divisible 5
 	elsif num%5==0 
 		puts "Buzz"
