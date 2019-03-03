@@ -15,6 +15,7 @@
 #   $ ruby question_1.rb
 #   It is certain
 
-
-
-puts "hola mundo"
+salida = [ 'It is certain', 'It is decidedly so', 'Ask again later', 'Outlook not so good', 'Very doubtful' ] 
+num_aleat = salida.length
+salida_aleat = rand(num_aleat)
+puts salida[salida_aleat] 
