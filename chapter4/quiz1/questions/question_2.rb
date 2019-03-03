@@ -6,3 +6,5 @@ while cont<251
     suma=suma+cont
     cont+=1
 end 
+
+puts suma
